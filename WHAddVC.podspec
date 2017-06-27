@@ -2,7 +2,7 @@
     Pod::Spec.new do |s|  
       
       s.name         = "WHAddVC"  
-      s.version      = "1.0.0"  
+      s.version      = "1.0.2"  
       s.summary      = "Simple one line code."  
       s.homepage     = "https://github.com/remember17/WHAddVC"  
       s.license      = "MIT"  
@@ -12,5 +12,6 @@
       s.source_files  = "WHAddVC", "WHAddVC/*.{h,m}"  
       s.framework  = "UIKit"  
       s.requires_arc = true   
-
+      s.dependency 'Masonry'
+      
     end  
