@@ -4,7 +4,7 @@
 
     s.name             = "WHAddVC"  
 
-    s.version          = "1.0.0"
+    s.version          = "0.9.0"
 
     s.summary      = "Simple one line code."
 
@@ -23,7 +23,5 @@
     s.framework  = "UIKit"
 
     s.requires_arc = true
-
-    s.dependency =  "Masonry"
 
     end
