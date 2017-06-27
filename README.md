@@ -2,7 +2,7 @@
 一行代码创建的控制器带有这些效果：下拉放大图片, 导航栏颜色渐变, 添加子控制器, 左右滑动同时按钮跟着切换
 
 ### gif效果图
- ![img](https://github.com/remember17/WHAddVC/img-folder/example.gif)
+ ![img](WHAddVC/img-folder/example.gif )
 
 ## 使用方法
 创建WHAddVC控制器的代码如下
