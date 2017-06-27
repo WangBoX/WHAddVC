@@ -177,7 +177,6 @@
 - (void)addPanGesture {
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     [self.view addGestureRecognizer:pan];
-    
 }
 
 - (void)pan:(UIPanGestureRecognizer *)pan {
@@ -214,6 +213,7 @@
         }];
     }
 }
+
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (scrollView.isTracking || scrollView.isDragging || scrollView.isDecelerating) {

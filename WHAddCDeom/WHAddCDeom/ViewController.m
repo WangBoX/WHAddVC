@@ -29,8 +29,6 @@
 
     // 一行代码创建WHAddVC
     WHAddVC *addVC = [WHAddVC addVCWithTitle:@"TEST" topImage:[UIImage imageNamed:@"test"] chooseTitles:@[@"One",@"Two",@"Three"] chooseControllers:@[@"FirstViewController",@"SecondViewController",@"ThirdViewController"]];
-
-//    addVC.blur = YES;
     
     [self.navigationController pushViewController:addVC animated:YES];
 }
