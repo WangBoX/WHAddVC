@@ -2,13 +2,13 @@
 一行代码创建的控制器带有这些效果：下拉放大图片, 导航栏颜色渐变, 添加子控制器, 左右滑动同时按钮跟着切换
 
 ### gif效果图
- ![img](https://github.com/remember17/WHAddVC/blob/master/img-folder/example.png)
+ ![img](https://github.com/remember17/WHAddVC/img-folder/example.gif)
 
 ## 使用方法
 创建WHAddVC控制器的代码如下
 ```objc
 // 一行代码创建WHAddVC
-    WHAddVC *addVC = [WHAddVC addVCWithTitle:@"TEST" topImage:[UIImage imageNamed:@"test"] chooseTitles:@[@"One",@"Two",@"Three"] chooseControllers:@[@"FirstViewController",@"SecondViewController",@"ThirdViewController"]];
+WHAddVC *addVC = [WHAddVC addVCWithTitle:@"TEST" topImage:[UIImage imageNamed:@"test"] chooseTitles:@[@"One",@"Two",@"Three"] chooseControllers:@[@"FirstViewController",@"SecondViewController",@"ThirdViewController"]];
 ```
 下面是更详细的每个参数说明
 ```objc
@@ -32,10 +32,10 @@ WHAddVC还带有一个BOOL类型的属性可供设置。
 你可以这样操作：
 ```objc
 // 一行代码创建WHAddVC
-    WHAddVC *addVC = [WHAddVC addVCWithTitle:@"TEST" topImage:[UIImage imageNamed:@"test"] chooseTitles:@[@"One",@"Two",@"Three"] chooseControllers:@[@"FirstViewController",@"SecondViewController",@"ThirdViewController"]];
+WHAddVC *addVC = [WHAddVC addVCWithTitle:@"TEST" topImage:[UIImage imageNamed:@"test"] chooseTitles:@[@"One",@"Two",@"Three"] chooseControllers:@[@"FirstViewController",@"SecondViewController",@"ThirdViewController"]];
 
 // 设置blur属性，给顶部图片添加模糊效果
- addVC.blur = YES;
+addVC.blur = YES;
 ```
 
-#### MIT 
+#### MIT LICENSE 
