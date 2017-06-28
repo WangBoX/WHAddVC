@@ -16,7 +16,7 @@
 #import "ThirdViewController.h"
 #import "Masonry.h"
 
-@interface WHAddVC () <UIScrollViewDelegate>
+@interface WHAddVC () <UIScrollViewDelegate,UIGestureRecognizerDelegate>
 
 @property (nonatomic, weak) WHChooseView *chooseView;
 @property (nonatomic, weak) UIImageView *imageView;
@@ -176,7 +176,12 @@
 
 - (void)addPanGesture {
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
+    pan.delegate = self;
     [self.view addGestureRecognizer:pan];
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    return YES;
 }
 
 - (void)pan:(UIPanGestureRecognizer *)pan {
