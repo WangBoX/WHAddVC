@@ -21,6 +21,7 @@
     imageView.frame = self.view.frame;
     
     [self.view addSubview:imageView];
+    
 }
 
 @end
