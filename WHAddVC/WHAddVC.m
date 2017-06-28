@@ -1,10 +1,10 @@
 //
 //  WHAddVC.m
-//  WHAddCDeom
+//  WHAddVCDeom
 //  https://github.com/remember17/WHAddVC
 //  Created by 吴浩 on 2017/6/26.
 //  Copyright © 2017年 wuhao. All rights reserved.
-//
+//  http://www.jianshu.com/p/187c53796a8a
 
 #import "WHAddVC.h"
 #import "UIColor+WHColor.h"
@@ -177,7 +177,6 @@
 - (void)addPanGesture {
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     [self.view addGestureRecognizer:pan];
-    
 }
 
 - (void)pan:(UIPanGestureRecognizer *)pan {

@@ -2,7 +2,7 @@
     Pod::Spec.new do |s|  
       
       s.name         = "WHAddVC"  
-      s.version      = "1.0.2"  
+      s.version      = "1.0.3"  
       s.summary      = "Simple one line code."  
       s.homepage     = "https://github.com/remember17/WHAddVC"  
       s.license      = "MIT"  

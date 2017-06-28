@@ -1,17 +1,16 @@
 //
 //  UIImage+WHImage.h
-//  WHAddCDeom
+//  WHAddVCDeom
 //  https://github.com/remember17/WHAddVC
 //  Created by 吴浩 on 2017/6/27.
 //  Copyright © 2017年 wuhao. All rights reserved.
-//
+//  http://www.jianshu.com/p/187c53796a8a
 
 #import "UIImage+WHImage.h"
 #import <Accelerate/Accelerate.h>
 
 @implementation UIImage (WHImage)
 
-//图片模糊效果
 - (UIImage *)blur
 {
     return [self imgWithLightAlpha:0.1 radius:5 colorSaturationFactor:1];
@@ -56,8 +55,7 @@
             CGFloat inputRadius = blurRadius * [[UIScreen mainScreen] scale];
             int radius = floor(inputRadius * 3. * sqrt(2 * M_PI) / 4 + 0.5);
             if (radius % 2 != 1) {
-                radius += 1; // force radius to be odd so that the three box-blur methodology works.
-            }
+                radius += 1;             }
             vImageBoxConvolve_ARGB8888(&effectInBuffer, &effectOutBuffer, NULL, 0, 0, radius, radius, 0, kvImageEdgeExtend);
             vImageBoxConvolve_ARGB8888(&effectOutBuffer, &effectInBuffer, NULL, 0, 0, radius, radius, 0, kvImageEdgeExtend);
             vImageBoxConvolve_ARGB8888(&effectInBuffer, &effectOutBuffer, NULL, 0, 0, radius, radius, 0, kvImageEdgeExtend);
@@ -94,16 +92,13 @@
         UIGraphicsEndImageContext();
     }
     
-    // 开启上下文 用于输出图像
     UIGraphicsBeginImageContextWithOptions(self.size, NO, [[UIScreen mainScreen] scale]);
     CGContextRef outputContext = UIGraphicsGetCurrentContext();
     CGContextScaleCTM(outputContext, 1.0, -1.0);
     CGContextTranslateCTM(outputContext, 0, -self.size.height);
     
-    // 开始画底图
     CGContextDrawImage(outputContext, imageRect, self.CGImage);
     
-    // 开始画模糊效果
     if (hasBlur) {
         CGContextSaveGState(outputContext);
         if (maskImage) {
@@ -113,7 +108,6 @@
         CGContextRestoreGState(outputContext);
     }
     
-    // 添加颜色渲染
     if (tintColor) {
         CGContextSaveGState(outputContext);
         CGContextSetFillColorWithColor(outputContext, tintColor.CGColor);
@@ -121,7 +115,6 @@
         CGContextRestoreGState(outputContext);
     }
     
-    // 输出成品,并关闭上下文
     UIImage *outputImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     
