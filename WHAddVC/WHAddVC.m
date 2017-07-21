@@ -11,9 +11,6 @@
 #import "UIImage+WHImage.h"
 #import "WHNavView.h"
 #import "WHChooseView.h"
-#import "FirstViewController.h"
-#import "SecondViewController.h"
-#import "ThirdViewController.h"
 #import "Masonry.h"
 
 @interface WHAddVC () <UIScrollViewDelegate,UIGestureRecognizerDelegate>
@@ -139,9 +136,9 @@
     Class Second = NSClassFromString(_chooseControllers[1]);
     Class Third = NSClassFromString(_chooseControllers[2]);
     
-    FirstViewController *firstVC = [[First alloc] init];
-    SecondViewController *secondVC = [[Second alloc] init];
-    ThirdViewController *thirdVC = [[Third alloc] init];
+    UIViewController *firstVC = [[First alloc] init];
+    UIViewController *secondVC = [[Second alloc] init];
+    UIViewController *thirdVC = [[Third alloc] init];
     
     [self addChildViewController:firstVC];
     [self addChildViewController:secondVC];
