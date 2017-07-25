@@ -182,8 +182,32 @@
 }
 
 - (void)pan:(UIPanGestureRecognizer *)pan {
+    
+    
     CGPoint movePoint = [pan translationInView:pan.view];
     [pan setTranslation:CGPointZero inView:pan.view];
+    
+    CGFloat absX = fabs(movePoint.x);
+    CGFloat absY = fabs(movePoint.y);
+    
+    // 如果左右滑动,就不要出现上下滑动,提升使用体验
+    if (absX > absY ) {
+        if (movePoint.x<0) {
+            NSLog(@"向左滑动");
+            return;
+            
+        }else{
+            NSLog(@"向右滑动");
+            return;
+        }
+    } else if (absY > absX) {
+        if (movePoint.y<0) {
+            NSLog(@"向上滑动");
+        }else{
+            NSLog(@"向下滑动");
+        }
+    }
+    
     
     [_imageView mas_updateConstraints:^(MASConstraintMaker *make) {
         CGFloat delta = _imageView.frame.size.height + movePoint.y;

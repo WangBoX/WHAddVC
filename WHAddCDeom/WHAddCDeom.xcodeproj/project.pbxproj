@@ -24,14 +24,14 @@
 		682890C71F01095100AD5F4C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890BB1F01095000AD5F4C /* View+MASAdditions.m */; };
 		682890C81F01095100AD5F4C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890BE1F01095000AD5F4C /* ViewController+MASAdditions.m */; };
 		682890CB1F0109C100AD5F4C /* UIButton+WHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890CA1F0109C100AD5F4C /* UIButton+WHButton.m */; };
-		682890CE1F010A1400AD5F4C /* WHAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890CD1F010A1400AD5F4C /* WHAddVC.m */; };
-		682890D51F010DDA00AD5F4C /* WHNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890D41F010DDA00AD5F4C /* WHNavView.m */; };
-		682890DB1F0110CE00AD5F4C /* WHChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890DA1F0110CE00AD5F4C /* WHChooseView.m */; };
 		682890DF1F01137700AD5F4C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890DE1F01137700AD5F4C /* FirstViewController.m */; };
 		682890E21F01137E00AD5F4C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890E11F01137E00AD5F4C /* SecondViewController.m */; };
 		682890E51F01138600AD5F4C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682890E41F01138600AD5F4C /* ThirdViewController.m */; };
-		6890AF3A1F01F44C00460F0A /* UIColor+WHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6890AF391F01F44C00460F0A /* UIColor+WHColor.m */; };
-		E83791811F02241200DAF361 /* UIImage+WHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E83791801F02241200DAF361 /* UIImage+WHImage.m */; };
+		E854435C1F2745B5008FD504 /* UIColor+WHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E85443531F2745B5008FD504 /* UIColor+WHColor.m */; };
+		E854435D1F2745B5008FD504 /* UIImage+WHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E85443551F2745B5008FD504 /* UIImage+WHImage.m */; };
+		E854435E1F2745B5008FD504 /* WHAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E85443571F2745B5008FD504 /* WHAddVC.m */; };
+		E854435F1F2745B5008FD504 /* WHChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E85443591F2745B5008FD504 /* WHChooseView.m */; };
+		E85443601F2745B5008FD504 /* WHNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = E854435B1F2745B5008FD504 /* WHNavView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,22 +72,22 @@
 		682890BE1F01095000AD5F4C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		682890C91F0109C100AD5F4C /* UIButton+WHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WHButton.h"; sourceTree = "<group>"; };
 		682890CA1F0109C100AD5F4C /* UIButton+WHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WHButton.m"; sourceTree = "<group>"; };
-		682890CC1F010A1400AD5F4C /* WHAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAddVC.h; sourceTree = "<group>"; };
-		682890CD1F010A1400AD5F4C /* WHAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAddVC.m; sourceTree = "<group>"; };
-		682890D31F010DDA00AD5F4C /* WHNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHNavView.h; sourceTree = "<group>"; };
-		682890D41F010DDA00AD5F4C /* WHNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHNavView.m; sourceTree = "<group>"; };
-		682890D91F0110CE00AD5F4C /* WHChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHChooseView.h; sourceTree = "<group>"; };
-		682890DA1F0110CE00AD5F4C /* WHChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHChooseView.m; sourceTree = "<group>"; };
 		682890DD1F01137700AD5F4C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		682890DE1F01137700AD5F4C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		682890E01F01137E00AD5F4C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		682890E11F01137E00AD5F4C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		682890E31F01138600AD5F4C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		682890E41F01138600AD5F4C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		6890AF381F01F44C00460F0A /* UIColor+WHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHColor.h"; sourceTree = "<group>"; };
-		6890AF391F01F44C00460F0A /* UIColor+WHColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHColor.m"; sourceTree = "<group>"; };
-		E837917F1F02241200DAF361 /* UIImage+WHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WHImage.h"; sourceTree = "<group>"; };
-		E83791801F02241200DAF361 /* UIImage+WHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WHImage.m"; sourceTree = "<group>"; };
+		E85443521F2745B5008FD504 /* UIColor+WHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHColor.h"; sourceTree = "<group>"; };
+		E85443531F2745B5008FD504 /* UIColor+WHColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHColor.m"; sourceTree = "<group>"; };
+		E85443541F2745B5008FD504 /* UIImage+WHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WHImage.h"; sourceTree = "<group>"; };
+		E85443551F2745B5008FD504 /* UIImage+WHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WHImage.m"; sourceTree = "<group>"; };
+		E85443561F2745B5008FD504 /* WHAddVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAddVC.h; sourceTree = "<group>"; };
+		E85443571F2745B5008FD504 /* WHAddVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAddVC.m; sourceTree = "<group>"; };
+		E85443581F2745B5008FD504 /* WHChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHChooseView.h; sourceTree = "<group>"; };
+		E85443591F2745B5008FD504 /* WHChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHChooseView.m; sourceTree = "<group>"; };
+		E854435A1F2745B5008FD504 /* WHNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHNavView.h; sourceTree = "<group>"; };
+		E854435B1F2745B5008FD504 /* WHNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHNavView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 		6828908B1F0108D900AD5F4C /* WHAddCDeom */ = {
 			isa = PBXGroup;
 			children = (
-				682890A31F01090700AD5F4C /* WHAddVC */,
+				E85443511F2745B5008FD504 /* WHAddVC */,
 				682890921F0108D900AD5F4C /* ViewController.h */,
 				682890931F0108D900AD5F4C /* ViewController.m */,
 				682890C91F0109C100AD5F4C /* UIButton+WHButton.h */,
@@ -139,23 +139,6 @@
 				6828908D1F0108D900AD5F4C /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		682890A31F01090700AD5F4C /* WHAddVC */ = {
-			isa = PBXGroup;
-			children = (
-				682890CC1F010A1400AD5F4C /* WHAddVC.h */,
-				682890CD1F010A1400AD5F4C /* WHAddVC.m */,
-				682890D91F0110CE00AD5F4C /* WHChooseView.h */,
-				682890DA1F0110CE00AD5F4C /* WHChooseView.m */,
-				682890D31F010DDA00AD5F4C /* WHNavView.h */,
-				682890D41F010DDA00AD5F4C /* WHNavView.m */,
-				6890AF381F01F44C00460F0A /* UIColor+WHColor.h */,
-				6890AF391F01F44C00460F0A /* UIColor+WHColor.m */,
-				E837917F1F02241200DAF361 /* UIImage+WHImage.h */,
-				E83791801F02241200DAF361 /* UIImage+WHImage.m */,
-			);
-			path = WHAddVC;
 			sourceTree = "<group>";
 		};
 		682890A41F01091200AD5F4C /* Others */ = {
@@ -216,6 +199,23 @@
 			name = ChildController;
 			sourceTree = "<group>";
 		};
+		E85443511F2745B5008FD504 /* WHAddVC */ = {
+			isa = PBXGroup;
+			children = (
+				E85443521F2745B5008FD504 /* UIColor+WHColor.h */,
+				E85443531F2745B5008FD504 /* UIColor+WHColor.m */,
+				E85443541F2745B5008FD504 /* UIImage+WHImage.h */,
+				E85443551F2745B5008FD504 /* UIImage+WHImage.m */,
+				E85443561F2745B5008FD504 /* WHAddVC.h */,
+				E85443571F2745B5008FD504 /* WHAddVC.m */,
+				E85443581F2745B5008FD504 /* WHChooseView.h */,
+				E85443591F2745B5008FD504 /* WHChooseView.m */,
+				E854435A1F2745B5008FD504 /* WHNavView.h */,
+				E854435B1F2745B5008FD504 /* WHNavView.m */,
+			);
+			path = WHAddVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +247,7 @@
 				TargetAttributes = {
 					682890881F0108D900AD5F4C = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U6E2LH6UY5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -287,24 +288,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83791811F02241200DAF361 /* UIImage+WHImage.m in Sources */,
 				682890C61F01095100AD5F4C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				E854435F1F2745B5008FD504 /* WHChooseView.m in Sources */,
 				682890DF1F01137700AD5F4C /* FirstViewController.m in Sources */,
 				682890C41F01095100AD5F4C /* MASViewConstraint.m in Sources */,
+				E854435D1F2745B5008FD504 /* UIImage+WHImage.m in Sources */,
 				682890CB1F0109C100AD5F4C /* UIButton+WHButton.m in Sources */,
+				E854435C1F2745B5008FD504 /* UIColor+WHColor.m in Sources */,
+				E85443601F2745B5008FD504 /* WHNavView.m in Sources */,
 				682890BF1F01095100AD5F4C /* MASCompositeConstraint.m in Sources */,
-				682890CE1F010A1400AD5F4C /* WHAddVC.m in Sources */,
 				682890E51F01138600AD5F4C /* ThirdViewController.m in Sources */,
-				682890D51F010DDA00AD5F4C /* WHNavView.m in Sources */,
 				682890C51F01095100AD5F4C /* NSArray+MASAdditions.m in Sources */,
+				E854435E1F2745B5008FD504 /* WHAddVC.m in Sources */,
 				682890941F0108D900AD5F4C /* ViewController.m in Sources */,
 				682890911F0108D900AD5F4C /* AppDelegate.m in Sources */,
 				682890C21F01095100AD5F4C /* MASLayoutConstraint.m in Sources */,
-				682890DB1F0110CE00AD5F4C /* WHChooseView.m in Sources */,
 				6828908E1F0108D900AD5F4C /* main.m in Sources */,
 				682890C81F01095100AD5F4C /* ViewController+MASAdditions.m in Sources */,
 				682890C71F01095100AD5F4C /* View+MASAdditions.m in Sources */,
-				6890AF3A1F01F44C00460F0A /* UIColor+WHColor.m in Sources */,
 				682890E21F01137E00AD5F4C /* SecondViewController.m in Sources */,
 				682890C31F01095100AD5F4C /* MASViewAttribute.m in Sources */,
 				682890C01F01095100AD5F4C /* MASConstraint.m in Sources */,
@@ -430,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6E2LH6UY5;
 				INFOPLIST_FILE = WHAddCDeom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.remember17.WHAddCDeom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U6E2LH6UY5;
 				INFOPLIST_FILE = WHAddCDeom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.remember17.WHAddCDeom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
